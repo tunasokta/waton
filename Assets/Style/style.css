@@ -1,0 +1,349 @@
+*{
+    background-color: #171717;
+}
+
+*{
+    color: whitesmoke;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body, html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul{
+    color: whitesmoke;
+    list-style: none;
+}
+
+.ctn{
+    background-color: red;
+    padding: 8px 15px;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
+.ctn:hover{
+    font-weight: bold;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+}
+
+.option li{
+    margin: 0 15px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+
+}
+/* Header */
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../Img/image\ cover\ -1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+
+}
+
+
+
+
+.line{
+    background-color: red;
+    width: 120px;
+    height: 3.5px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+/* New */
+
+section{
+    width: 80%;
+    margin: 76px auto;
+    
+   
+}
+
+.item{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 2.2vw;
+    
+}
+
+.row{
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;
+}
+
+.row .col{
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 15px;
+    
+
+}
+
+.New .row .col img{
+    width: 80%;
+}
+
+.row .col .ctn{
+    top:80px;
+}
+
+.New .row{
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+.New p , h4{
+    margin: 20px 0 -7px 0;
+    padding-bottom: 10px;
+}
+
+video{
+    transition: transform .3s ease;
+}
+
+video:hover{
+    transform: scale(1.1);
+    
+}
+
+/* Collection */
+.Collection .row{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 50%;
+    margin-top: 50px;
+}
+
+.Collection .row .col{
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    flex-direction:column;
+    display: flex;
+   
+}
+.Collection .row .col img{
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+/* Gallery */
+.Gallery .row{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 50%;
+    margin-top: 50px;
+}
+
+.Gallery .row .col{
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    flex-direction:column;
+    display: flex;
+   
+}
+.Gallery .row .col img{
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+/* Konserku */
+
+section{
+    width: 80%;
+    margin: 76px auto;
+    
+   
+}
+
+.item{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 2.2vw;
+}
+
+.row{
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;
+}
+
+.row .col{
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 15px;
+    
+
+}
+
+.New .row .col img{
+    width: 80%;
+}
+
+.row .col .ctn{
+    top:80px;
+}
+
+.New .row{
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+.New p , h4{
+    margin: 20px 0 -7px 0;
+    padding-bottom: 10px;
+}
+
+video{
+    transition: transform .3s ease;
+}
+
+video:hover{
+    transform: scale(1.1);
+}
+
+
+/* Aside untuk Profile  */
+aside .col {
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    flex-direction:column;
+    display: flex;
+   
+}
+aside .col img{
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+
+aside .col .h3 .p{
+    text-align: center;
+}
+aside .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+/* Footer  & About Us & Social Media*/
+footer{
+    background-color: #171717;
+    height: auto;
+    width: 100vw;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    margin-top: 280px;
+}
+
+.item-footer{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.item-footer ,h4,p{
+    padding: 5px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 5px;
+    padding: 20px;
+}
+.socials a i{
+    font-size: 35px;
+    margin: 0 20px;
+}
+
+.socials i:hover{
+    font-weight: bold;
+    color:darkslateblue;
+}
+
+/* tampilan Mobile */
+
+@media screen and (max-width:576px){
+    .navbar{
+        padding: 0;
+        
+    
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+      
+     
+    }
+    .option{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: #171717;
+       
+    }
+    .option li{
+        margin: 30px auto;
+    }
+    .Collection .row {
+      justify-content: center;
+    }
+    
+}   
+    
